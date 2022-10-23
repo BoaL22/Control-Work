@@ -59,3 +59,7 @@ void PrintArray(string[] array)                             // Выводим м
 
 
 
+Console.WriteLine();
+PrintArray(one_array);
+PrintArray(second_array);
+Console.WriteLine();
