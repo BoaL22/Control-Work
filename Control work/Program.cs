@@ -20,3 +20,16 @@ for (int i = 0; i < one_array.Length; i++)                    // Задаём з
     one_array[i] = Convert.ToString(Console.ReadLine());
 }
 
+
+int len = 3;                // Длинна (Сокращённо от length)
+int QuantityIndex = 0;      // Количество элементов второго массива
+
+for (int j = 0; j < one_array.Length; j++)                  // Задаём размер второго массива
+{
+    if (one_array[j].Length <= len)
+    {
+        QuantityIndex++;
+    }
+}
+
+string[] second_array = new string[QuantityIndex];          // Задаём второй массив
