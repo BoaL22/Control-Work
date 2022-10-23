@@ -46,3 +46,16 @@ for (int a = 0; a < size; a++)                              // Находим э
     }
 }
 
+void PrintArray(string[] array)                             // Выводим массив
+{
+    Console.Write("[ ");
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.Write("]");
+    Console.WriteLine();
+}
+
+
+
