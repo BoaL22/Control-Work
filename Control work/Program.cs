@@ -9,4 +9,14 @@
     ["Russia", "Denmark", "Kazan"] -> []
 */
 
+Console.WriteLine("Введите количество элементов массива: ");  // Задаём массив
+int size = Convert.ToInt32(Console.ReadLine());
+string[] one_array = new string[size];
+
+
+for (int i = 0; i < one_array.Length; i++)                    // Задаём значение всем элементам массива
+{
+    Console.WriteLine($"Введите {i+1}-й элемент: ");
+    one_array[i] = Convert.ToString(Console.ReadLine());
+}
 
