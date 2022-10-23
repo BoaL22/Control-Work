@@ -34,6 +34,8 @@ for (int j = 0; j < one_array.Length; j++)                  // Задаём ра
 
 string[] second_array = new string[QuantityIndex];          // Задаём второй массив
 
+int len2 = 3;               // Длинна (Сокращённо от length)
+int index = 0;              // Элемент второго массива
 
 for (int a = 0; a < size; a++)                              // Находим элементы первого массива, меньше 3 символов
 {
